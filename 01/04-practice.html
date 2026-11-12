@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+
+
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            transition: all 1s;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: black;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+            padding: 45px;
+            overflow: hidden;
+        }
+
+        div {
+            width: 250px;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            background-color: #ffd900;
+            box-shadow: 0 0 25px #ffd900, 0 0 5px 10px #f7e441, 0 0 130px 60px #e4f317;
+            position: fixed;
+
+        }
+
+        section {
+            position: fixed;
+            width: 100%;
+            top: 50px;
+            left: 10px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        button {
+            border: none;
+            background-color: transparent;
+            color: wheat;
+            cursor: pointer;
+        }
+
+        button:hover {
+            color: #f3ff17;
+        }
+
+        .play {
+            animation: play 10s infinite alternate linear;
+        }
+
+        @keyframes play {
+            0% {
+                background-color: #ffd900;
+                box-shadow: 0 0 25px #ffd900, 0 0 5px 10px #f7e441, 0 0 130px 60px #e4f317;
+            }
+
+            20% {
+                background-color: #ffd900;
+                box-shadow: 0 0 25px #ffd900, 0 0 5px 10px #f7e441, 0 0 130px 60px #e4f317;
+            }
+
+            80% {
+                background-color: #520e02;
+                box-shadow: 0 0 25px #520e02, 0 0 5px 10px #520e02, 0 0 150px 20px #f31e17;
+            }
+
+            100% {
+                background-color: #520e02;
+                box-shadow: 0 0 25px #520e02, 0 0 5px 10px #520e02, 0 0 150px 20px #f31e17;
+            }
+        }
+    </style>
+
+    <div id="container"></div>
+
+    <section>
+        <button>Start Animation</button>
+        <button>Stop Animation</button>
+    </section>
+</body>
+
+</html>
