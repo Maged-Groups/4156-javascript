@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS - external</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            transition: all 0.3s;
+        }
+
+        body {
+            padding: 24px;
+            background-color: #efefef;
+        }
+
+        .msg {
+            padding: 24px 18px;
+            border-radius: 18px;
+            background-color: #b3ceb3;
+            color: #003300;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <h1 class="msg" id="msg" onclick="this.style.display=`none`;">Data Saved Successfully</h1>
+
+
+    <button onclick="msg.style.display = `none`;">Go it!!!</button>
+
+    <script src="public/js/scripts.js">
+        msg.style.textAlign = `right`;
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+browser -> Right Click -> Inspect -> Console
+
+browser.Right Click.Inspect.Console
+
+
+Start.DeviceManager.DisplayAdapters.MBDA
+
+Car.motor.engine
+
+Mobile.price = 50000
+Mobile.color = black
+
+user.age = 15
+user.address.city = 'Alex'
+
+user.address.home.city = 'Cairo'
+
+computer.start()
+
+dough.cook().eat()
+
+car.motor.cylners.count = 4
+car.drive()
+car.color

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS - DevTools -> console</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            transition: all 0.3s;
+        }
+
+        body {
+            padding: 24px;
+            background-color: #efefef;
+        }
+
+        .msg {
+            padding: 24px 18px;
+            border-radius: 18px;
+            background-color: #b3ceb3;
+            color: #003300;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <script>
+        msg.style.textAlign = `right`;
+    </script>
+
+    <h1 class="msg" id="msg" onclick="this.style.display=`none`;">
+        Open the console in DevTools to check the error
+    </h1>
+
+
+
+    <button onclick="msg.style.display = `none`;">Go it!!!</button>
+</body>
+
+</html>
