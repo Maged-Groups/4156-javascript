@@ -1,0 +1,1 @@
+msg.style.textAlign = `right`;

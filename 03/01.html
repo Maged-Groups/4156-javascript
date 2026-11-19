@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS </title>
+
+
+</head>
+
+<body>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            padding: 24px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        /* 
+        #msgbox {
+            border: solid;
+            padding: 12px 24px;
+            border-radius: 8px;
+            background-color: #cdf0cd;
+            font-size: 24px;
+            color: rgb(6, 48, 6);
+            box-shadow: 5px 5px 5px #333;
+        } */
+        /* #msgbox {
+            border: solid;
+            padding: 12px 24px;
+            border-radius: 8px;
+            background-color: #f0cdcd;
+            font-size: 24px;
+            color: rgb(44, 3, 3);
+            box-shadow: 5px 5px 5px #333;
+        } */
+        /* #msgbox {
+            border: solid;
+            padding: 12px 24px;
+            border-radius: 8px;
+            background-color: #f0e8cd;
+            font-size: 24px;
+            color: rgb(44, 33, 3);
+            box-shadow: 5px 5px 5px #333;
+        } */
+    </style>
+
+    <div id="msgbox">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, eaque.
+    </div>
+
+    <div>
+        <button onclick="successAlert()">Success</button>
+        <button onclick="">Error</button>
+        <button onclick="">Warning</button>
+    </div>
+
+    <script>
+
+        function successAlert() {
+            msgbox.style.border = `solid`;
+            msgbox.style.padding = `12px 24px`;
+        }
+    </script>
+</body>
+
+</html>
